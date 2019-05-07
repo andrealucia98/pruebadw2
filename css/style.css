@@ -11,10 +11,9 @@ header i{
 	font-size: 20px;
 	width: 40px;
 	font-family: Open Sans;
+	padding-top: 0%;
 	
 }
-
-
 
 header{
 	background-color: transparent;
@@ -25,6 +24,7 @@ header{
 	background-color: #ff4514;
 	margin-left: 50%;
 	border-radius: 50px;
+	margin-top: 30%
 	
 }
 
@@ -253,3 +253,46 @@ footer img{
 	padding-bottom: 1%;
 }
 
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky {
+	background-color: #1F1A21;
+}
+
+.header-area.sticky .nav-link {
+	color: #2c3142;
+	
+}
+
+.header-area.sticky .active .nav-link{
+	color:#2c3142;
+}
+
+
+.header-area.sticky .nav-link:hover::after {
+	background-color: #2c3142;
+}
+
+
+.header-area.sticky .nav-link:hover{
+	color:#2c3142;
+}
+
+.header-area.sticky .active .nav-link:hover{
+	color:#2c3142;
+}
+
+.header-area.sticky .navbar-brand .d-block{
+	display: none !important;
+}
+
+.header-area.sticky .navbar-brand .d-none{
+	display: block !important;
+}
