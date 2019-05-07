@@ -8,12 +8,13 @@ body{
 header i{
 	color:#fff;
 	text-align: center;
-	font-size: 30px;
+	font-size: 20px;
+	width: 40px;
 	font-family: Open Sans;
 	
 }
 
-header img{}
+
 
 header{
 	background-color: transparent;
@@ -22,7 +23,7 @@ header{
 .btn-header{
 	align-content: left;
 	background-color: #ff4514;
-	margin-left: 5%;
+	margin-left: 50%;
 	border-radius: 50px;
 	
 }
@@ -223,3 +224,32 @@ padding: 5%;
 .form-group{
 	align: center;
 }
+
+.formss{
+	border-color: #ff4514;
+	margin-left: 5%;
+	border-radius: 50px;
+	background-color: transparent;
+	color:#FFFFFF;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.formss:hover{
+	background-color: #fffff;
+	border-color: #ff4514;
+	
+}
+
+footer{
+	background-color: #191919;
+	padding: 5%;
+	text-align: center;
+	color: #373739;
+}
+
+footer img{
+	align-content: center;
+	padding-bottom: 1%;
+}
+
